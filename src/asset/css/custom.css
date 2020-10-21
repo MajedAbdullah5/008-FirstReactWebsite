@@ -1,0 +1,30 @@
+.topFixedBanner{
+    background-image: url("../../asset/image/notebook.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 600px;
+}
+.topBannerOverlay{
+    position: absolute;
+    width: 100%;
+    min-height: 600px;
+    background-color: rgba(0,0,0,0.7);
+}
+.bannerComponent{
+    margin-top: 10rem;
+}
+.bannerTitle{
+    font-family: 'Montserrat',sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 52px;
+}
+.bannerSubTitle{
+    font-family: 'Raleway',sans-serif;
+    color: whitesmoke;
+    font-size:22px;
+    font-weight: 600;
+    padding: 10px;
+}
