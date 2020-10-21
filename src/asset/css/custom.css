@@ -28,3 +28,37 @@
     font-weight: 600;
     padding: 10px;
 }
+.iconSize{
+    width: 100px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.card-component{
+    margin: 5px 5px 5px 5px;
+    height: 22rem;
+    padding: 60px 30px 60px 30px;
+    box-shadow: 0 0 4px 0 rgba(0,115,230,0.2);
+}
+.card-component:hover{
+    margin: 5px 5px 5px 5px;
+    height: 22rem;
+    padding: 60px 30px 60px 30px;
+    box-shadow: 0 0 8px 0 rgba(0,115,230,0.2);
+}
+.service-main-title{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.service-name{
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+.service-description{
+    font-family: 'Raleway', sans-serif;
+    color: #7F7E7E;
+    font-size: 16px;
+    font-weight: 400;
+}
