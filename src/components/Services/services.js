@@ -1,7 +1,5 @@
 import React, {Component, Fragment} from 'react';
 import {Container, Row, Col} from "react-bootstrap";
-import '../../asset/css/bootstrap.min.css'
-import '../../asset/css/custom.css'
 import webDesign from  '../../asset/image/web-design.svg';
 import laptop from  '../../asset/image/laptop.svg';
 import coding from  '../../asset/image/coding.svg';
