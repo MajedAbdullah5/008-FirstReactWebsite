@@ -3,6 +3,7 @@ import React from 'react';
 import TopBanner from "./components/BannerComponent/topBanner";
 import Services from "./components/Services/services";
 import TopNavigation from "./components/topNavigation/topNavigation";
+import Analysis from "./components/Analysis/Analysis";
 
 
 
@@ -13,6 +14,7 @@ function App() {
         <TopNavigation/>
         <TopBanner/>
         <Services/>
+        <Analysis/>
     </div>
   );
 }

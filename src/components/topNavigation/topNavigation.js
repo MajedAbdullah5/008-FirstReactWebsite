@@ -10,9 +10,9 @@ class TopNavigation extends Component {
         super();
         this.state = {
             navBackground : "navBackgroundColor",
-            navBarTitle     : "navTitle",
-            navLogo   : [whiteLogo],
-            navBarItem:"navItem"
+            navBarTitle   : "navTitle",
+            navLogo       : [whiteLogo],
+            navBarItem    :"navItem"
         }
     }
 
