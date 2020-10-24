@@ -113,3 +113,52 @@
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
 }
+.summary{
+    background-image: url("../../asset/image/summary.jpg");
+    min-height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 5rem;
+}
+.summaryOverlay{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 350px;
+}
+.countingNumber{
+    font-family: 'montserreat', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    color: white;
+}
+.countingTitle{
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+}
+.countSection{
+    margin-top: 12%;
+}
+.cardTitle{
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: black;
+}
+.cardSubTitle{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+.cardMargin{
+    margin-top: 15%;
+    padding: 10px;
+    border-radius: 2px;
+}
+.iconColor{
+    color: #007bff;
+}

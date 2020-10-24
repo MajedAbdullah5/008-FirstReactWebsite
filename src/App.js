@@ -4,6 +4,7 @@ import TopBanner from "./components/BannerComponent/topBanner";
 import Services from "./components/Services/services";
 import TopNavigation from "./components/topNavigation/topNavigation";
 import Analysis from "./components/Analysis/Analysis";
+import Summary from "./components/Summary/Summary";
 
 
 
@@ -15,6 +16,7 @@ function App() {
         <TopBanner/>
         <Services/>
         <Analysis/>
+        <Summary/>
     </div>
   );
 }
