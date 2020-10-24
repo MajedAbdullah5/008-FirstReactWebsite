@@ -8,6 +8,9 @@ import Summary from "./components/Summary/Summary";
 import Projects from "./components/Recent Projects/Projects";
 import Courses from "./components/Courses/Courses";
 import Video from "./components/Video/Video";
+import ClientReview from "./components/ClientReview/ClientReview";
+import Footer from "./components/FooterSection/Footer";
+import Copyright from "./components/Copyright/Copyright";
 
 
 
@@ -23,6 +26,9 @@ function App() {
         <Projects/>
         <Courses/>
         <Video/>
+        <ClientReview/>
+        <Footer/>
+        <Copyright/>
     </div>
   );
 }
