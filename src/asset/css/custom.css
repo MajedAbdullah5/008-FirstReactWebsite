@@ -162,3 +162,22 @@
 .iconColor{
     color: #007bff;
 }
+.projectCard{
+    border-radius: 2px;
+    border: none !important;
+    margin: 2px;
+    box-shadow: 0 0 4px 0 rgba(0,115,230,0.2);
+}
+.projectCard:hover{
+    box-shadow: 0 0 8px 0 rgba(0,115,230,0.2);
+}
+.projectCardTitle{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+.projectCardDesc{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
