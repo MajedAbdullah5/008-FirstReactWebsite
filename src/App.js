@@ -6,6 +6,7 @@ import TopNavigation from "./components/topNavigation/topNavigation";
 import Analysis from "./components/Analysis/Analysis";
 import Summary from "./components/Summary/Summary";
 import Projects from "./components/Recent Projects/Projects";
+import Courses from "./components/Courses/Courses";
 
 
 
@@ -19,6 +20,7 @@ function App() {
         <Analysis/>
         <Summary/>
         <Projects/>
+        <Courses/>
     </div>
   );
 }
