@@ -1,17 +1,19 @@
 import React, {Component, Fragment} from 'react';
 import TopNavigation from "../components/topNavigation/topNavigation";
-import PageTop from "../components/PageTop/PageTop";
 import Footer from "../components/FooterSection/Footer";
 import Copyright from "../components/Copyright/Copyright";
-import AboutMe from "../components/About/AboutMe";
+import Services from "../components/Services/services";
+import ContactSection from "../components/ContactSection/ContactSection";
+import PageTop from "../components/PageTop/PageTop";
 
-class AboutPages extends Component {
+ class ServicesPage extends Component {
     render() {
         return (
             <Fragment>
                 <TopNavigation/>
-                <PageTop pageTitle="ABOUT ME"/>
-                <AboutMe/>
+                <PageTop pageTitle="MY SERVICES"/>
+                <Services/>
+                <ContactSection/>
                 <Footer/>
                 <Copyright/>
             </Fragment>
@@ -19,4 +21,4 @@ class AboutPages extends Component {
     }
 }
 
-export default AboutPages;
+export default ServicesPage;

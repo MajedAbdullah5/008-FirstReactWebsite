@@ -38,12 +38,12 @@ class TopNavigation extends Component {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto"></Nav>
                         <Nav>
-                            <Nav.Link className={this.state.navBarItem}  href="#deets">Home</Nav.Link>
-                            <Nav.Link className={this.state.navBarItem}  href="#deets">Services</Nav.Link>
-                            <Nav.Link className={this.state.navBarItem}  href="#deets">Courses</Nav.Link>
-                            <Nav.Link className={this.state.navBarItem}  href="#deets">Portfolio</Nav.Link>
-                            <Nav.Link className={this.state.navBarItem}  href="#deets">Contact</Nav.Link>
-                            <Nav.Link className={this.state.navBarItem}  href="#deets">About</Nav.Link>
+                            <Nav.Link className={this.state.navBarItem}  href="/">Home</Nav.Link>
+                            <Nav.Link className={this.state.navBarItem}  href="/service">Services</Nav.Link>
+                            <Nav.Link className={this.state.navBarItem}  href="/courses">Courses</Nav.Link>
+                            <Nav.Link className={this.state.navBarItem}  href="/portfolio">Portfolio</Nav.Link>
+                            <Nav.Link className={this.state.navBarItem}  href="/contact">Contact</Nav.Link>
+                            <Nav.Link className={this.state.navBarItem}  href="/about">About</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>

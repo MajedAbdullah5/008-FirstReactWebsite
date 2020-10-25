@@ -1,7 +1,7 @@
 import React, {Component, Fragment} from 'react';
 import {Container,Row,Col} from "react-bootstrap";
 
-class About extends Component {
+class AboutMe extends Component {
     render() {
         return (
             <Fragment>
@@ -16,7 +16,6 @@ class About extends Component {
                             <h2 className="aboutColTitle mb-2">Majed Abdullah</h2>
                         <hr/>
                             <p className="aboutColDesTitle text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, aliquam asperiores at error facilis molestias nemo nostrum odio quam quo quod recusandae saepe sapiente ut voluptas. Accusantium delectus laboriosam nostrum!</p>
-
                         </Col>
                     </Row>
                 </Container>
@@ -24,5 +23,4 @@ class About extends Component {
         );
     }
 }
-
-export default About;
+export default AboutMe;
