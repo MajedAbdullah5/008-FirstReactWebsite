@@ -11,6 +11,14 @@ import Video from "./components/Video/Video";
 import ClientReview from "./components/ClientReview/ClientReview";
 import Footer from "./components/FooterSection/Footer";
 import Copyright from "./components/Copyright/Copyright";
+import HomePage from "./pages/HomePage";
+import PageTop from "./components/PageTop/PageTop";
+import AboutPages from "./pages/AboutPages";
+import AllCourses from "./components/AllCourses/AllCourses";
+import CoursesPage from "./pages/CoursesPage";
+import AllProjects from "./components/All Projects/AllProjects";
+import ContactSection from "./components/ContactSection/ContactSection";
+import Contact from "./pages/Contact";
 
 
 
@@ -18,15 +26,14 @@ import Copyright from "./components/Copyright/Copyright";
 function App() {
   return (
     <div>
+        {/*<HomePage/>*/}
+        {/*<AboutPages/>*/}
+        {/*<CoursesPage/>*/}
+        {/*<Contact/>*/}
         <TopNavigation/>
-        <TopBanner/>
+        <PageTop pageTitle="MY SERVICES"/>
         <Services/>
-        <Analysis/>
-        <Summary/>
-        <Projects/>
-        <Courses/>
-        <Video/>
-        <ClientReview/>
+        <ContactSection/>
         <Footer/>
         <Copyright/>
     </div>
