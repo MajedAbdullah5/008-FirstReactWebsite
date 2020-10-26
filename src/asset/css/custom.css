@@ -90,7 +90,7 @@
 }
 .navItem{
     text-decoration: none !important;
-    color: white !important;
+    color: white;
     font-family: 'Raleway', sans-serif;
 }
 .navItemScroll{

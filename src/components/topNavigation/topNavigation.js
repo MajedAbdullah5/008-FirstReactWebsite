@@ -4,6 +4,7 @@ import React, {Component, Fragment} from 'react';
 import {Navbar, Nav} from "react-bootstrap";
 import redLogo from '../../asset/image/hacker.svg'
 import whiteLogo from '../../asset/image/hacker (1).svg'
+import {NavLink} from "react-router-dom";
 
 class TopNavigation extends Component {
     constructor() {
@@ -38,12 +39,12 @@ class TopNavigation extends Component {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto"></Nav>
                         <Nav>
-                            <Nav.Link className={this.state.navBarItem}  href="/">Home</Nav.Link>
-                            <Nav.Link className={this.state.navBarItem}  href="/service">Services</Nav.Link>
-                            <Nav.Link className={this.state.navBarItem}  href="/courses">Courses</Nav.Link>
-                            <Nav.Link className={this.state.navBarItem}  href="/portfolio">Portfolio</Nav.Link>
-                            <Nav.Link className={this.state.navBarItem}  href="/contact">Contact</Nav.Link>
-                            <Nav.Link className={this.state.navBarItem}  href="/about">About</Nav.Link>
+                            <Nav.Link><NavLink exact activeStyle={{color:"#974a48"}} className={this.state.navBarItem}  to="/">Home</NavLink></Nav.Link>
+                            <Nav.Link><NavLink exact activeStyle={{color:"#974a48"}}  className={this.state.navBarItem}  to="/service">Services</NavLink></Nav.Link>
+                            <Nav.Link><NavLink exact activeStyle={{color:"#974a48"}}  className={this.state.navBarItem}  to="/courses">Courses</NavLink></Nav.Link>
+                            <Nav.Link><NavLink exact activeStyle={{color:"#974a48"}}  className={this.state.navBarItem}  to="/portfolio">Portfolio</NavLink> </Nav.Link>
+                            <Nav.Link><NavLink exact activeStyle={{color:"#974a48"}}  className={this.state.navBarItem}  to="/contact">Contact</NavLink></Nav.Link>
+                            <Nav.Link><NavLink exact activeStyle={{color:"#974a48"}}  className={this.state.navBarItem}  to="/about">About</NavLink></Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
