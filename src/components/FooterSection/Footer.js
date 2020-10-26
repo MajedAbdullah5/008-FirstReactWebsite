@@ -3,6 +3,7 @@ import {Container,Row,Col} from "react-bootstrap";
 import {faFacebookF,faYoutube,faDashcube} from "@fortawesome/free-brands-svg-icons";
 import {faEnvelope,faPhone,faLocationArrow,faUser,faHandPaper} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {Link} from "react-router-dom";
 
 class Footer extends Component {
     render() {
@@ -26,16 +27,15 @@ class Footer extends Component {
                        <Col className="text-justify p-2" lg={3} md={6} sm={12}>
                            <h1 className="footerHeader">INFORMATION</h1><br/>
                            <hr className="headerHoriz"/>
-                           <a className="footerContent" href=""><FontAwesomeIcon icon={faUser}/> About Me</a><br/>
-                           <a className="footerContent" href=""><FontAwesomeIcon icon={faHandPaper}/> My Resume</a><br/>
-                           <a className="footerContent" href=""><FontAwesomeIcon icon={faPhone}/> Contact Me</a>
+                           <Link className="footerContent" to="/about"><FontAwesomeIcon icon={faUser}/> About Me</Link><br/>
+                           <Link className="footerContent" to="/contact"><FontAwesomeIcon icon={faPhone}/> Contact Me</Link>
                        </Col>
                        <Col className="text-justify p-2" lg={3} md={6} sm={12}>
                            <h1 className="footerHeader">LEGAL</h1><br/>
                            <hr className="headerHoriz"/>
-                           <a className="footerContent" href=""><FontAwesomeIcon icon={faDashcube}/> Refund Policy</a><br/>
-                           <a className="footerContent" href=""><FontAwesomeIcon icon={faDashcube}/> Terms and Condition</a><br/>
-                           <a className="footerContent" href=""><FontAwesomeIcon icon={faDashcube}/> Privacy Policy</a>
+                           <Link className="footerContent" to="/policy"><FontAwesomeIcon icon={faDashcube}/> Refund Policy</Link><br/>
+                           <Link className="footerContent" to="/terms"><FontAwesomeIcon  icon={faDashcube}/> Terms and Condition</Link><br/>
+                           <Link className="footerContent" to="/privacy"><FontAwesomeIcon icon={faDashcube}/> Privacy Policy</Link>
                        </Col>
                    </Row>
                </Container>

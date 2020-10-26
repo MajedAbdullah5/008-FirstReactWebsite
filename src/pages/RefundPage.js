@@ -1,11 +1,11 @@
-import React, {Component,Fragment} from 'react';
+import React, {Component, Fragment} from 'react';
 import TopNavigation from "../components/topNavigation/topNavigation";
 import PageTop from "../components/PageTop/PageTop";
-import AllCourses from "../components/AllCourses/AllCourses";
+import RefundPolicy from "../components/RefundPolicy/RefundPolicy";
 import Footer from "../components/FooterSection/Footer";
 import Copyright from "../components/Copyright/Copyright";
 
-class CoursesPage extends Component {
+class RefundPage extends Component {
     componentDidMount() {
         window.scroll(0,0);
     }
@@ -13,8 +13,8 @@ class CoursesPage extends Component {
         return (
             <Fragment>
                 <TopNavigation/>
-                <PageTop pageTitle="MY COURSES"/>
-                <AllCourses/>
+                <PageTop pageTitle="REFUND POLICY"/>
+                <RefundPolicy/>
                 <Footer/>
                 <Copyright/>
             </Fragment>
@@ -22,4 +22,4 @@ class CoursesPage extends Component {
     }
 }
 
-export default CoursesPage;
+export default RefundPage;

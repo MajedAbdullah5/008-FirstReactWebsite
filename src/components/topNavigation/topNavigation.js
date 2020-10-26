@@ -34,15 +34,15 @@ class TopNavigation extends Component {
         return (
             <Fragment>
                 <Navbar variant={this.state.navVariant} className={this.state.navBackground} fixed="top" collapseOnSelect expand="lg">
-                    <Navbar.Brand className={this.state.navBarTitle} href="#home"><img className="logo" src={this.state.navLogo}/> </Navbar.Brand>
+                    <Navbar.Brand className={this.state.navBarTitle} href="#home"><img className="logo" src={this.state.navLogo}/> MAJED ABDULLAH</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto"></Nav>
                         <Nav>
-                            <Nav.Link><NavLink exact activeStyle={{color:"#974a48"}} className={this.state.navBarItem}  to="/">Home</NavLink></Nav.Link>
+                            <Nav.Link><NavLink exact activeStyle={{color:"#974a48"}}  className={this.state.navBarItem}  to="/">Home</NavLink></Nav.Link>
                             <Nav.Link><NavLink exact activeStyle={{color:"#974a48"}}  className={this.state.navBarItem}  to="/service">Services</NavLink></Nav.Link>
                             <Nav.Link><NavLink exact activeStyle={{color:"#974a48"}}  className={this.state.navBarItem}  to="/courses">Courses</NavLink></Nav.Link>
-                            <Nav.Link><NavLink exact activeStyle={{color:"#974a48"}}  className={this.state.navBarItem}  to="/portfolio">Portfolio</NavLink> </Nav.Link>
+                            <Nav.Link><NavLink exact activeStyle={{color:"#974a48"}}  className={this.state.navBarItem}  to="/portfolio">Portfolio</NavLink></Nav.Link>
                             <Nav.Link><NavLink exact activeStyle={{color:"#974a48"}}  className={this.state.navBarItem}  to="/contact">Contact</NavLink></Nav.Link>
                             <Nav.Link><NavLink exact activeStyle={{color:"#974a48"}}  className={this.state.navBarItem}  to="/about">About</NavLink></Nav.Link>
                         </Nav>

@@ -6,6 +6,9 @@ import Footer from "../components/FooterSection/Footer";
 import Copyright from "../components/Copyright/Copyright";
 
 class Projects extends Component {
+    componentDidMount() {
+        window.scroll(0,0);
+    }
     render() {
         return (
             <Fragment>

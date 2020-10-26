@@ -1,5 +1,6 @@
 import React, {Component, Fragment} from 'react';
 import {Card, Container, Row, Col, Button} from "react-bootstrap";
+import {Link} from "react-router-dom";
 
 class Projects extends Component {
     render() {
@@ -17,7 +18,7 @@ class Projects extends Component {
                                         Some quick example text to build on the card title and make up the bulk of
                                         the card's content.
                                     </Card.Text>
-                                    <Button variant="primary" style={{backgroundColor:'#974a48', border:'#974a48'}}>Go somewhere</Button>
+                                    <Link to="/project-details"><Button variant="primary" style={{backgroundColor:'#974a48', border:'#974a48'}}>Details</Button></Link>
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -31,7 +32,7 @@ class Projects extends Component {
                                         Some quick example text to build on the card title and make up the bulk of
                                         the card's content.
                                     </Card.Text>
-                                    <Button variant="primary" style={{backgroundColor:'#974a48', border:'#974a48'}}>Go somewhere</Button>
+                                    <Link to="/project-details"><Button variant="primary" style={{backgroundColor:'#974a48', border:'#974a48'}}>Details</Button></Link>
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -44,13 +45,12 @@ class Projects extends Component {
                                         Some quick example text to build on the card title and make up the bulk of
                                         the card's content.
                                     </Card.Text>
-                                    <Button variant="primary" style={{backgroundColor:'#974a48', border:'#974a48'}}>Go somewhere</Button>
+                                    <Link to="/project-details"><Button variant="primary" style={{backgroundColor:'#974a48', border:'#974a48'}}>Details</Button></Link>
                                 </Card.Body>
                             </Card>
                         </Col>
                     </Row>
                 </Container>
-
             </Fragment>
         );
     }

@@ -1,25 +1,27 @@
-import React, {Component,Fragment} from 'react';
+import React, {Component, Fragment} from 'react';
 import TopNavigation from "../components/topNavigation/topNavigation";
 import PageTop from "../components/PageTop/PageTop";
-import AllCourses from "../components/AllCourses/AllCourses";
+import Services from "../components/Services/services";
+import ContactSection from "../components/ContactSection/ContactSection";
 import Footer from "../components/FooterSection/Footer";
 import Copyright from "../components/Copyright/Copyright";
+import Privacy from "../components/PrivacyPolicy/Privacy";
 
-class CoursesPage extends Component {
+class PrivacyPolicy extends Component {
     componentDidMount() {
         window.scroll(0,0);
     }
     render() {
         return (
-            <Fragment>
+            <div>
                 <TopNavigation/>
-                <PageTop pageTitle="MY COURSES"/>
-                <AllCourses/>
+                <PageTop pageTitle="PRIVACY POLICY"/>
+                <Privacy/>
                 <Footer/>
                 <Copyright/>
-            </Fragment>
+            </div>
         );
     }
 }
 
-export default CoursesPage;
+export default PrivacyPolicy;

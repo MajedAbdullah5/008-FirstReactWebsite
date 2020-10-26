@@ -1,25 +1,26 @@
-import React, {Component,Fragment} from 'react';
+import React, {Component, Fragment} from 'react';
 import TopNavigation from "../components/topNavigation/topNavigation";
 import PageTop from "../components/PageTop/PageTop";
-import AllCourses from "../components/AllCourses/AllCourses";
+import RefundPolicy from "../components/RefundPolicy/RefundPolicy";
 import Footer from "../components/FooterSection/Footer";
 import Copyright from "../components/Copyright/Copyright";
+import TermsDes from "../components/Terms&Condition/TermsDes";
 
-class CoursesPage extends Component {
+class TermsConditions extends Component {
     componentDidMount() {
         window.scroll(0,0);
     }
     render() {
         return (
-            <Fragment>
+            <div>
                 <TopNavigation/>
-                <PageTop pageTitle="MY COURSES"/>
-                <AllCourses/>
+                <PageTop pageTitle="TERMS & CONDITIONS"/>
+                <TermsDes/>
                 <Footer/>
                 <Copyright/>
-            </Fragment>
+            </div>
         );
     }
 }
 
-export default CoursesPage;
+export default TermsConditions;

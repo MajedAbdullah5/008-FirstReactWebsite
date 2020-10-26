@@ -1,6 +1,7 @@
 import React, {Component,Fragment} from 'react';
 import Container from "react-bootstrap/cjs/Container";
 import {Button, Card, Col, Row} from "react-bootstrap";
+import {Link} from "react-router-dom";
 
 class AllProjects extends Component {
     render() {
@@ -17,7 +18,7 @@ class AllProjects extends Component {
                                             Some quick example text to build on the card title and make up the bulk of
                                             the card's content.
                                         </Card.Text>
-                                        <Button variant="primary" style={{backgroundColor:'#974a48', border:'#974a48'}}>Go somewhere</Button>
+                                        <Link to="/project-details"><Button variant="primary" style={{backgroundColor:'#974a48', border:'#974a48'}}>Details</Button></Link>
                                     </Card.Body>
                                 </Card>
                             </Col>
@@ -31,7 +32,7 @@ class AllProjects extends Component {
                                             Some quick example text to build on the card title and make up the bulk of
                                             the card's content.
                                         </Card.Text>
-                                        <Button variant="primary" style={{backgroundColor:'#974a48', border:'#974a48'}}>Go somewhere</Button>
+                                        <Link to="/project-details"><Button variant="primary" style={{backgroundColor:'#974a48', border:'#974a48'}}>Details</Button></Link>
                                     </Card.Body>
                                 </Card>
                             </Col>
@@ -44,7 +45,7 @@ class AllProjects extends Component {
                                             Some quick example text to build on the card title and make up the bulk of
                                             the card's content.
                                         </Card.Text>
-                                        <Button variant="primary" style={{backgroundColor:'#974a48', border:'#974a48'}}>Go somewhere</Button>
+                                        <Link to="/project-details"><Button variant="primary" style={{backgroundColor:'#974a48', border:'#974a48'}}>Details</Button></Link>
                                     </Card.Body>
                                 </Card>
                             </Col>
@@ -59,7 +60,7 @@ class AllProjects extends Component {
                                             Some quick example text to build on the card title and make up the bulk of
                                             the card's content.
                                         </Card.Text>
-                                        <Button variant="primary" style={{backgroundColor:'#974a48', border:'#974a48'}}>Go somewhere</Button>
+                                        <Link to="/project-details"><Button variant="primary" style={{backgroundColor:'#974a48', border:'#974a48'}}>Details</Button></Link>
                                     </Card.Body>
                                 </Card>
                             </Col>
@@ -73,7 +74,7 @@ class AllProjects extends Component {
                                             Some quick example text to build on the card title and make up the bulk of
                                             the card's content.
                                         </Card.Text>
-                                        <Button variant="primary" style={{backgroundColor:'#974a48', border:'#974a48'}}>Go somewhere</Button>
+                                        <Link to="/project-details"><Button variant="primary" style={{backgroundColor:'#974a48', border:'#974a48'}}>Details</Button></Link>
                                     </Card.Body>
                                 </Card>
                             </Col>
@@ -86,7 +87,7 @@ class AllProjects extends Component {
                                             Some quick example text to build on the card title and make up the bulk of
                                             the card's content.
                                         </Card.Text>
-                                        <Button variant="primary" style={{backgroundColor:'#974a48', border:'#974a48'}}>Go somewhere</Button>
+                                        <Link to="/project-details"><Button variant="primary" style={{backgroundColor:'#974a48', border:'#974a48'}}>Details</Button></Link>
                                     </Card.Body>
                                 </Card>
                             </Col>
@@ -101,7 +102,7 @@ class AllProjects extends Component {
                                             Some quick example text to build on the card title and make up the bulk of
                                             the card's content.
                                         </Card.Text>
-                                        <Button variant="primary" style={{backgroundColor:'#974a48', border:'#974a48'}}>Go somewhere</Button>
+                                        <Link to="/project-details"><Button variant="primary" style={{backgroundColor:'#974a48', border:'#974a48'}}>Details</Button></Link>
                                     </Card.Body>
                                 </Card>
                             </Col>
@@ -115,7 +116,7 @@ class AllProjects extends Component {
                                             Some quick example text to build on the card title and make up the bulk of
                                             the card's content.
                                         </Card.Text>
-                                        <Button variant="primary" style={{backgroundColor:'#974a48', border:'#974a48'}}>Go somewhere</Button>
+                                        <Link to="/project-details"><Button variant="primary" style={{backgroundColor:'#974a48', border:'#974a48'}}>Details</Button></Link>
                                     </Card.Body>
                                 </Card>
                             </Col>
@@ -128,7 +129,7 @@ class AllProjects extends Component {
                                             Some quick example text to build on the card title and make up the bulk of
                                             the card's content.
                                         </Card.Text>
-                                        <Button variant="primary" style={{backgroundColor:'#974a48', border:'#974a48'}}>Go somewhere</Button>
+                                        <Link to="/project-details"><Button variant="primary" style={{backgroundColor:'#974a48', border:'#974a48'}}>Details</Button></Link>
                                     </Card.Body>
                                 </Card>
                             </Col>

@@ -5,7 +5,12 @@ import Footer from "../components/FooterSection/Footer";
 import Copyright from "../components/Copyright/Copyright";
 import AboutMe from "../components/About/AboutMe";
 
+
 class AboutPages extends Component {
+    componentDidMount() {
+        window.scroll(0,0);
+    }
+
     render() {
         return (
             <Fragment>

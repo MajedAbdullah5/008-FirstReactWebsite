@@ -1,6 +1,7 @@
 import React, {Component, Fragment} from 'react';
 import Container from "react-bootstrap/cjs/Container";
 import {Col, Row} from "react-bootstrap";
+import {Link} from "react-router-dom";
 
 class Courses extends Component {
     render() {
@@ -16,6 +17,8 @@ class Courses extends Component {
                                 <Col  sm={12} md={6} lg={6}>
                                     <h4 className="text-justify">title</h4>
                                     <h6 className="text-justify">Description</h6>
+                                    <Link to="/course-details" style={{color:'#974a48',fontWeight:'500',fontSize:'20px'}}>Details</Link>
+
                                 </Col>
                             </Row>
                         </Col>
@@ -27,6 +30,8 @@ class Courses extends Component {
                                 <Col  sm={12} md={6} lg={6}>
                                     <h4 className="text-justify">title</h4>
                                     <h6 className="text-justify">Description</h6>
+                                    <Link to="/course-details" style={{color:'#974a48',fontWeight:'500',fontSize:'20px'}}>Details</Link>
+
                                 </Col>
                             </Row>
                         </Col>
@@ -40,6 +45,8 @@ class Courses extends Component {
                                 <Col sm={12} md={6} lg={6}>
                                     <h4 className="text-justify">title</h4>
                                     <h6 className="text-justify">Description</h6>
+                                    <Link to="/course-details" style={{color:'#974a48',fontWeight:'500',fontSize:'20px'}}>Details</Link>
+
                                 </Col>
                             </Row>
                         </Col>
@@ -51,6 +58,7 @@ class Courses extends Component {
                                 <Col sm={12} md={6} lg={6}>
                                     <h4 className="text-justify">title</h4>
                                     <h6 className="text-justify">Description</h6>
+                                    <Link to="/course-details" style={{color:'#974a48',fontWeight:'500',fontSize:'20px'}}>Details</Link>
                                 </Col>
                             </Row>
                         </Col>
